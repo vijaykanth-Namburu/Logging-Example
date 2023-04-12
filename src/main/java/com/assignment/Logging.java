@@ -9,6 +9,7 @@ public class Logging {
         Logger logger = LoggerFactory.getLogger("Logging update");
 
         logger.info("Simply an update");
+        logger.warn("got warn");
         logger.error("Example of an error");
     }
 
